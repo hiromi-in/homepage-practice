@@ -387,3 +387,48 @@ input[type="submit"]{
     cursor: pointer;
     line-height: 1;
 }
+
+/*Store info*/
+#location{
+    padding: 4% 0;
+}
+
+#location .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-info{
+    width: 22%;
+}
+
+.location-info p{
+    padding: 12px 10px;
+}
+
+.location-map{
+    width: 74%;
+}
+
+/*iframe*/
+iframe{
+    width: 100%;
+}
+/*sns*/
+#sns{
+    background: #FAF7F0;
+    padding: 4% 0;
+}
+
+#sns .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sns .sub-title{
+    margin-bottom: 30px;
+}
+
+.sns-box{
+    width: 30%;
+}
